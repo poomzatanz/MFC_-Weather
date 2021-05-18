@@ -1,0 +1,41 @@
+﻿Build started 5/19/2021 1:47:40 AM.
+     1>Project "C:\Users\ASUS\Downloads\Chapter812\Chapter8\Chapter8\Chapter8.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Chapter8.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Chapter8.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Chapter8.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Chapter8.cpp Chapter8Dlg.cpp
+         Chapter8Dlg.cpp
+     1>c:\users\asus\downloads\chapter812\chapter8\chapter8\chapter8dlg.cpp(230): warning C4101: 'nResult' : unreferenced local variable
+         Chapter8.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\Chapter8.res" Chapter8.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Chapter8.exe.embed.manifest.res" Debug\Chapter8_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\Downloads\Chapter812\Chapter8\Debug\Chapter8.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Chapter8.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ASUS\Downloads\Chapter812\Chapter8\Debug\Chapter8.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\Downloads\Chapter812\Chapter8\Debug\Chapter8.lib" /MACHINE:X86 Debug\Chapter8.res
+         Debug\Chapter8.exe.embed.manifest.res
+         Debug\Chapter8.obj
+         Debug\Chapter8Dlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\Chapter8.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Chapter8.exe.embed.manifest" /manifest Debug\Chapter8.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Chapter8.exe.embed.manifest.res" Debug\Chapter8_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\Downloads\Chapter812\Chapter8\Debug\Chapter8.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Chapter8.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ASUS\Downloads\Chapter812\Chapter8\Debug\Chapter8.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\Downloads\Chapter812\Chapter8\Debug\Chapter8.lib" /MACHINE:X86 Debug\Chapter8.res
+         Debug\Chapter8.exe.embed.manifest.res
+         Debug\Chapter8.obj
+         Debug\Chapter8Dlg.obj
+         Debug\stdafx.obj
+         Chapter8.vcxproj -> C:\Users\ASUS\Downloads\Chapter812\Chapter8\Debug\Chapter8.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Chapter8.unsuccessfulbuild".
+         Touching "Debug\Chapter8.lastbuildstate".
+     1>Done Building Project "C:\Users\ASUS\Downloads\Chapter812\Chapter8\Chapter8\Chapter8.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.62
